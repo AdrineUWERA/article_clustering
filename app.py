@@ -1,11 +1,11 @@
 import streamlit as st  
-import json
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.cluster import KMeans
+import json
 
 # Download NLTK resources
 nltk.download('punkt')
