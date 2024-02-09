@@ -3,12 +3,14 @@ import json
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.cluster import KMeans
 
 # Download NLTK resources
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('wordnet')
 
 # Initialize an empty list to store articles
 articles = []
@@ -27,12 +29,15 @@ descriptions = [article['description'] for article in articles]
 
 # Text preprocessing
 stop_words = set(stopwords.words('english'))
+lemmatizer = WordNetLemmatizer()
 
 def preprocess_text(text):
     # Tokenization
     words = word_tokenize(text.lower())
+    # Lemmatization
+    lemmatized_words = [lemmatizer.lemmatize(word) for word in words]
     # Remove stopwords and single character words
-    words = [word for word in words if word.isalnum() and word not in stop_words]
+    words = [word for word in lemmatized_words if word.isalnum() and word not in stop_words]
     return ' '.join(words)
 
 # Preprocess descriptions
@@ -49,11 +54,12 @@ count_matrix = count_vectorizer.fit_transform(preprocessed_descriptions)
 tfidf_matrix = tfidf_transformer.fit_transform(count_matrix)
 
 # Clustering
-kmeans = KMeans(n_clusters=4, random_state=1)
+kmeans = KMeans(n_clusters=9, random_state=1)
 clusters = kmeans.fit_predict(tfidf_matrix)
 
+
 # Create an array of arrays of articles in each cluster
-articles_by_cluster = [[] for _ in range(4)]
+articles_by_cluster = [[] for _ in range(9)]
 for idx, article in enumerate(articles):
     cluster_num = clusters[idx]
     articles_by_cluster[cluster_num].append(article)
@@ -81,4 +87,3 @@ for cluster_num, cluster_articles in enumerate(articles_by_cluster):
         st.write(f"[Read more]({article['link']})")
         st.markdown("---")   
     st.markdown("<div style='padding: 20px'></div>", unsafe_allow_html=True)
-

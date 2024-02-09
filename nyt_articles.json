@@ -1,5 +1,47 @@
 [
     {
+        "link": "https://www.nytimes.com//2024/02/09/climate/maine-groundwater-poland-spring-legislation.html",
+        "title": "In a Victory for Poland Spring, Maine Rejects New Groundwater Limits",
+        "description": "The bottled-water company last year tried to kill legislation aimed at protecting aquifers at a time when many are at risk nationally.",
+        "content": "In a Victory for Poland Spring, Maine Rejects New Groundwater Limits - The bottled-water company last year tried to kill legislation aimed at protecting aquifers at a time when many are at risk nationally."
+    },
+    {
+        "link": "https://www.nytimes.com//2024/02/09/climate/stanley-mug-sustainability.html",
+        "title": "They’re the Stanley Cup Champions. And That’s a Lot of Mugs.",
+        "description": "The ‘it’ mug’s selling point is sustainability — one cup to replace many disposable bottles. But what does it mean when people buy lots of them?",
+        "content": "They’re the Stanley Cup Champions. And That’s a Lot of Mugs. - The ‘it’ mug’s selling point is sustainability — one cup to replace many disposable bottles. But what does it mean when people buy lots of them?"
+    },
+    {
+        "link": "https://www.nytimes.com//2024/02/09/magazine/nigeria-corruption-michael-quinn-brendan-cahill.html",
+        "title": "How Two Irish Businessmen Almost Took Nigeria for $11 Billion",
+        "description": "A mundane contractual provision met with rampant corruption — revealing a serious vulnerability in one of the backbones of international commerce.",
+        "content": "How Two Irish Businessmen Almost Took Nigeria for $11 Billion - A mundane contractual provision met with rampant corruption — revealing a serious vulnerability in one of the backbones of international commerce."
+    },
+    {
+        "link": "https://www.nytimes.com//2024/02/09/world/europe/soccer-gay-players.html",
+        "title": "Is Soccer Ready to Retire Its Last Taboo?",
+        "description": "A new documentary about gay players tells a story that is, in some ways, no longer a story.",
+        "content": "Is Soccer Ready to Retire Its Last Taboo? - A new documentary about gay players tells a story that is, in some ways, no longer a story."
+    },
+    {
+        "link": "https://www.nytimes.com//video/world/asia/100000009305985/india-clashes-mosque-muslim-seminary.html",
+        "title": "Burned Vehicles Litter Streets After Clashes in Northern India",
+        "description": "Protests broke out in the town of Haldwani, India, after officials and the police arrived to demolish a mosque and a Muslim seminary.",
+        "content": "Burned Vehicles Litter Streets After Clashes in Northern India - Protests broke out in the town of Haldwani, India, after officials and the police arrived to demolish a mosque and a Muslim seminary."
+    },
+    {
+        "link": "https://www.nytimes.com//2024/02/09/world/europe/eiffel-tower-matchsticks-guinness.html",
+        "title": "Reversing Course, Guinness Gives a Frenchman’s Eiffel Tower the Record",
+        "description": "Weeks after disqualifying a 24-foot tower made of matchsticks, Guinness World Records apologized and said it had been too “heavy handed.”",
+        "content": "Reversing Course, Guinness Gives a Frenchman’s Eiffel Tower the Record - Weeks after disqualifying a 24-foot tower made of matchsticks, Guinness World Records apologized and said it had been too “heavy handed.”"
+    },
+    {
+        "link": "https://www.nytimes.com//2024/02/09/world/europe/robert-badinter-dead.html",
+        "title": "Robert Badinter, Who Won Fight to End Death Penalty in France, Dies at 95",
+        "description": "He spent decades as an esteemed defense lawyer but was best known as the justice minister who enacted a 1981 law abolishing capital punishment.",
+        "content": "Robert Badinter, Who Won Fight to End Death Penalty in France, Dies at 95 - He spent decades as an esteemed defense lawyer but was best known as the justice minister who enacted a 1981 law abolishing capital punishment."
+    },
+    {
         "link": "https://www.nytimes.com//2024/02/09/travel/hot-springs.html",
         "title": "Dipping Into the World’s Most Stunning Hot Springs",
         "description": "From onsens in Japan to high-altitude pools in Bolivia, the photographer Greta Rybus shares highlights from her search for thermal waters.",
@@ -10,6 +52,12 @@
         "title": "Friday Briefing",
         "description": "A special counsel clears Biden.",
         "content": "Friday Briefing - A special counsel clears Biden."
+    },
+    {
+        "link": "https://www.nytimes.com//2024/02/09/us/politics/biden-israel-gaza.html",
+        "title": "Biden sharpens criticism of Israel, calling its Gaza response ‘over the top.’",
+        "description": "“There are a lot of innocent people who are in trouble and dying,” the president said in a session with reporters. “And it’s got to stop.”",
+        "content": "Biden sharpens criticism of Israel, calling its Gaza response ‘over the top.’ - “There are a lot of innocent people who are in trouble and dying,” the president said in a session with reporters. “And it’s got to stop.”"
     },
     {
         "link": "https://www.nytimes.com//2024/02/08/world/australia/australia-us-china-detente.html",
@@ -72,10 +120,22 @@
         "content": "C.D.C. Investigating Gastrointestinal Illness on Luxury Cruise Ship - The Queen Victoria was on its way to Honolulu from San Francisco on a 107-night world cruise when more than 150 people on board reported symptoms, officials said."
     },
     {
+        "link": "https://www.nytimes.com//2024/02/08/world/middleeast/blinken-netanyahu-gaza-negotiations.html",
+        "title": "A Blinken Visit Puts U.S.-Israeli Tensions on Full Display",
+        "description": "During a round of diplomacy by Secretary of State Antony J. Blinken, Prime Minister Benjamin Netanyahu seemed to be speaking to a domestic audience that does not want to let up pressure on Hamas.",
+        "content": "A Blinken Visit Puts U.S.-Israeli Tensions on Full Display - During a round of diplomacy by Secretary of State Antony J. Blinken, Prime Minister Benjamin Netanyahu seemed to be speaking to a domestic audience that does not want to let up pressure on Hamas."
+    },
+    {
         "link": "https://www.nytimes.com//2024/02/08/science/pollution-flowers-pollination.html",
         "title": "Polluted Flowers Smell Less Sweet to Pollinators, Study Finds",
         "description": "The research, involving primroses and hawk moths, suggests that air pollution could be interfering with plant reproduction.",
         "content": "Polluted Flowers Smell Less Sweet to Pollinators, Study Finds - The research, involving primroses and hawk moths, suggests that air pollution could be interfering with plant reproduction."
+    },
+    {
+        "link": "https://www.nytimes.com//2024/02/08/world/europe/zelensky-general-valery-zaluzhny-ukraine-military.html",
+        "title": "Zelensky Removes His Top General, in Major Shake-Up of Ukraine Military",
+        "description": "Gen. Valery Zaluzhny led the effort that thwarted Russia’s initial assault on Kyiv. But his troops have struggled to make progress recently, and tensions have mounted with the civilian leadership.",
+        "content": "Zelensky Removes His Top General, in Major Shake-Up of Ukraine Military - Gen. Valery Zaluzhny led the effort that thwarted Russia’s initial assault on Kyiv. But his troops have struggled to make progress recently, and tensions have mounted with the civilian leadership."
     },
     {
         "link": "https://www.nytimes.com//video/world/europe/100000009303813/iceland-volcano.html",
@@ -94,6 +154,12 @@
         "title": "Ukraine’s Creative Use of Weapons Carries Promise and Risk",
         "description": "A Russian plane shot down with a Patriot missile was probably carrying Ukrainian prisoners of war, U.S. officials say.",
         "content": "Ukraine’s Creative Use of Weapons Carries Promise and Risk - A Russian plane shot down with a Patriot missile was probably carrying Ukrainian prisoners of war, U.S. officials say."
+    },
+    {
+        "link": "https://www.nytimes.com//2024/02/08/world/europe/paris-olympics-medals-eiffel-tower.html",
+        "title": "Gold, Silver and … Iron? Olympic Medals Will Have Piece of Eiffel Tower",
+        "description": "Medalists at this year’s Paris Olympics and Paralympics will also take home a piece of the French capital’s iconic landmark.",
+        "content": "Gold, Silver and … Iron? Olympic Medals Will Have Piece of Eiffel Tower - Medalists at this year’s Paris Olympics and Paralympics will also take home a piece of the French capital’s iconic landmark."
     },
     {
         "link": "https://www.nytimes.com//2024/02/08/world/europe/uefa-ceferin-term-limits.html",
@@ -118,6 +184,18 @@
         "title": "More Adolescent Boys Have Eating Disorders. Two Experts Discuss Why.",
         "description": "For the longest time, researchers focused on diagnosing and treating girls, but that is changing.",
         "content": "More Adolescent Boys Have Eating Disorders. Two Experts Discuss Why. - For the longest time, researchers focused on diagnosing and treating girls, but that is changing."
+    },
+    {
+        "link": "https://www.nytimes.com//2024/02/08/world/australia/right-to-disconnect-law.html",
+        "title": "Australia Introduces Workers’ ‘Right to Disconnect’",
+        "description": "If the legislation passes, companies could face fines if they penalize employees for failing to respond to work-related communication in off-work hours.",
+        "content": "Australia Introduces Workers’ ‘Right to Disconnect’ - If the legislation passes, companies could face fines if they penalize employees for failing to respond to work-related communication in off-work hours."
+    },
+    {
+        "link": "https://www.nytimes.com//2024/02/08/world/europe/iceland-volcano-erupts.html",
+        "title": "Iceland Volcano Erupts Again, Cutting Off Hot Water to Thousands",
+        "description": "The flowing lava poured over a key pipe that transports hot water from the local power plant to nearby towns.",
+        "content": "Iceland Volcano Erupts Again, Cutting Off Hot Water to Thousands - The flowing lava poured over a key pipe that transports hot water from the local power plant to nearby towns."
     },
     {
         "link": "https://www.nytimes.com//2024/02/08/briefing/militia-iraq-senate-aid-immigration.html",
@@ -502,77 +580,5 @@
         "title": "Parisians Vote to Triple Parking Fees for Big S.U.V.s and Other Hefty Cars",
         "description": "The city authorities say that large cars pollute more and are dangerous for pedestrians. Opponents say the mayor is on a crusade against motorists.",
         "content": "Parisians Vote to Triple Parking Fees for Big S.U.V.s and Other Hefty Cars - The city authorities say that large cars pollute more and are dangerous for pedestrians. Opponents say the mayor is on a crusade against motorists."
-    },
-    {
-        "link": "https://www.nytimes.com//2024/02/05/business/us-treasury-officials-china-visit.html",
-        "title": "Top U.S. Treasury Officials to Visit Beijing for Economic Talks",
-        "description": "A meeting of the new economic working group comes as the U.S. and China are trying to prevent any escalation of hostilities.",
-        "content": "Top U.S. Treasury Officials to Visit Beijing for Economic Talks - A meeting of the new economic working group comes as the U.S. and China are trying to prevent any escalation of hostilities."
-    },
-    {
-        "link": "https://www.nytimes.com//2024/02/05/world/canada/hockey-canada-scandal-sexual-assault.html",
-        "title": "As Canadian Hockey Players Face Assault Charges, Officials Are on Defensive",
-        "description": "Hockey fans in Canada are struggling to make sense of a scandal that has led to sexual-assault charges against five former junior hockey players.",
-        "content": "As Canadian Hockey Players Face Assault Charges, Officials Are on Defensive - Hockey fans in Canada are struggling to make sense of a scandal that has led to sexual-assault charges against five former junior hockey players."
-    },
-    {
-        "link": "https://www.nytimes.com//2024/02/05/world/middleeast/israel-netanyahu-americans-elections.html",
-        "title": "Many Israelis Want Netanyahu Out. But There Is No Simple Path to Do It.",
-        "description": "There is no clear mechanism to force early elections in Israel. But there are other ways to oust the Israeli prime minister.",
-        "content": "Many Israelis Want Netanyahu Out. But There Is No Simple Path to Do It. - There is no clear mechanism to force early elections in Israel. But there are other ways to oust the Israeli prime minister."
-    },
-    {
-        "link": "https://www.nytimes.com//2024/02/05/world/asia/china-travel-weather-lunar-new-year.html",
-        "title": "Severe Weather Disrupts Travel in China Ahead of Lunar New Year",
-        "description": "Hundreds of flights and trains have been canceled as China’s most important holiday approaches, and more bad weather is in the forecast.",
-        "content": "Severe Weather Disrupts Travel in China Ahead of Lunar New Year - Hundreds of flights and trains have been canceled as China’s most important holiday approaches, and more bad weather is in the forecast."
-    },
-    {
-        "link": "https://www.nytimes.com//2024/02/05/world/europe/zelensky-ukraine-war.html",
-        "title": "Zelensky Hints at Major Shake-Up of Ukraine’s Government",
-        "description": "The president said a “reset” was needed to revive the struggling war effort, adding that his plans were “about the direction of the country’s leadership” and not just about replacing his top general.",
-        "content": "Zelensky Hints at Major Shake-Up of Ukraine’s Government - The president said a “reset” was needed to revive the struggling war effort, adding that his plans were “about the direction of the country’s leadership” and not just about replacing his top general."
-    },
-    {
-        "link": "https://www.nytimes.com//2024/02/05/world/asia/australian-writer-yang-china-death-sentence.html",
-        "title": "Chinese-Australian Writer Held by China Given Suspended Death Sentence",
-        "description": "The verdict in the case of Yang Hengjun, who was detained on national security charges, may weigh on the warming relations between China and Australia.",
-        "content": "Chinese-Australian Writer Held by China Given Suspended Death Sentence - The verdict in the case of Yang Hengjun, who was detained on national security charges, may weigh on the warming relations between China and Australia."
-    },
-    {
-        "link": "https://www.nytimes.com//2024/02/05/briefing/houthi-yemen-chile-fire.html",
-        "title": "Monday Briefing",
-        "description": "The U.S. leads strikes in the Middle East.",
-        "content": "Monday Briefing - The U.S. leads strikes in the Middle East."
-    },
-    {
-        "link": "https://www.nytimes.com//video/world/asia/100000009297346/china-travel-weather-lunar-new-year.html",
-        "title": "Heavy Snow in China Disrupts Holiday Travel",
-        "description": "Footage from China Central Television, a state media outlet, showed vehicles moving slowly on highways blanketed by snow as the Lunar New Year travel rush begins.",
-        "content": "Heavy Snow in China Disrupts Holiday Travel - Footage from China Central Television, a state media outlet, showed vehicles moving slowly on highways blanketed by snow as the Lunar New Year travel rush begins."
-    },
-    {
-        "link": "https://www.nytimes.com//2024/02/04/world/middleeast/us-mideast-strikes-blinken.html",
-        "title": "U.S. Strikes Iranian-Backed Targets for Third Day in a Row",
-        "description": "The attack on Houthi militants in Yemen came as Secretary of State Antony Blinken headed for the Mideast to try to defuse escalating tensions.",
-        "content": "U.S. Strikes Iranian-Backed Targets for Third Day in a Row - The attack on Houthi militants in Yemen came as Secretary of State Antony Blinken headed for the Mideast to try to defuse escalating tensions."
-    },
-    {
-        "link": "https://www.nytimes.com//2024/02/04/world/africa/kenya-deployment-haiti.html",
-        "title": "Kenya Plans to Bypass Court Order in Haiti Deployment",
-        "description": "The United Nations-approved mission to stem gang violence in Haiti has faced widespread criticism from activists and lawmakers and was blocked by a High Court judge in Kenya in January.",
-        "content": "Kenya Plans to Bypass Court Order in Haiti Deployment - The United Nations-approved mission to stem gang violence in Haiti has faced widespread criticism from activists and lawmakers and was blocked by a High Court judge in Kenya in January."
-    },
-    {
-        "link": "https://www.nytimes.com//2024/02/04/world/americas/chile-fires-photos.html",
-        "title": "Photos From a Firestorm: Chile’s Deadly Blazes",
-        "description": "Officials said Sunday that at least 99 people had been killed and hundreds remained missing, and warned that the toll could rise sharply.",
-        "content": "Photos From a Firestorm: Chile’s Deadly Blazes - Officials said Sunday that at least 99 people had been killed and hundreds remained missing, and warned that the toll could rise sharply."
-    },
-    {
-        "link": "https://www.nytimes.com//2024/02/04/world/asia/us-houthi-strikes-iran-ukraine-asia.html",
-        "title": "Monday Briefing: A Weekend of U.S.-Led Strikes",
-        "description": "Also, Ukraine’s grinding fight and China’s expanding nuclear arsenal.",
-        "content": "Monday Briefing: A Weekend of U.S.-Led Strikes - Also, Ukraine’s grinding fight and China’s expanding nuclear arsenal."
     }
 ]
