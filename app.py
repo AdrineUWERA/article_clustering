@@ -1,9 +1,6 @@
 import streamlit as st  
 import json
 import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.cluster import KMeans
 
@@ -11,6 +8,10 @@ from sklearn.cluster import KMeans
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
+
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
 
 # Initialize an empty list to store articles
 articles = []
