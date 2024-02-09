@@ -2,7 +2,6 @@ import streamlit as st
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.cluster import KMeans
 import json
@@ -10,32 +9,26 @@ import json
 # Download NLTK resources
 nltk.download('punkt')
 nltk.download('stopwords')
-nltk.download('wordnet')
 
 # Initialize an empty list to store articles
 articles = []
-
 
 # Open the JSON file with the articles
 with open("nyt_articles.json", 'r', encoding='utf-8') as file:
     # Load the JSON data
     articles = json.load(file)
 
-
 # Extract descriptions
 descriptions = [article['description'] for article in articles]
 
 # Text preprocessing
 stop_words = set(stopwords.words('english'))
-lemmatizer = WordNetLemmatizer()
 
 def preprocess_text(text):
     # Tokenization
     words = word_tokenize(text.lower())
-    # Lemmatization
-    lemmatized_words = [lemmatizer.lemmatize(word) for word in words]
     # Remove stopwords and single character words
-    words = [word for word in lemmatized_words if word.isalnum() and word not in stop_words]
+    words = [word for word in words if word.isalnum() and word not in stop_words]
     return ' '.join(words)
 
 # Preprocess descriptions
@@ -55,14 +48,13 @@ tfidf_matrix = tfidf_transformer.fit_transform(count_matrix)
 kmeans = KMeans(n_clusters=9, random_state=1)
 clusters = kmeans.fit_predict(tfidf_matrix)
 
-
 # Create an array of arrays of articles in each cluster
 articles_by_cluster = [[] for _ in range(9)]
 for idx, article in enumerate(articles):
     cluster_num = clusters[idx]
     articles_by_cluster[cluster_num].append(article)
 
- # Set page title and icon
+# Set page title and icon
 st.set_page_config(
     page_title="Articles Clustering",
     page_icon="images/nyt_logo.png"
