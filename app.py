@@ -15,14 +15,12 @@ nltk.download('wordnet')
 # Initialize an empty list to store articles
 articles = []
 
-try:
-    # Open the JSON file with the articles
-    with open("nyt_articles.json", 'r', encoding='utf-8') as file:
-        # Load the JSON data
-        articles = json.load(file)
-except FileNotFoundError:
-    st.error("Error: nyt_articles file not found")
-    st.stop()
+
+# Open the JSON file with the articles
+with open("nyt_articles.json", 'r', encoding='utf-8') as file:
+    # Load the JSON data
+    articles = json.load(file)
+
 
 # Extract descriptions
 descriptions = [article['description'] for article in articles]
